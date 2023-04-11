@@ -4,8 +4,8 @@ threadsafe: true
 
 handlers:
 - url: /
-  static_files: AlexisJar_PortFolio/site_fr/home_fr.html
-  upload: AlexisJar_PortFolio/site_fr/home_fr.html
+  static_files: AlexisJar_PortFolio/site_fr/index.html
+  upload: AlexisJar_PortFolio/site_fr/index.html
 
 - url: /
   static_dir: AlexisJar_PortFolio/site_fr
