@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/theme.css">
+    <title>AlexisJar - Portfolio</title>
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script> 
+       $(function(){
+          $('.header_fr').load("../header_fr.html"); 
+       });
+    </script> 
+    </head>
+    <body>
+        <div class="header_fr"><span>
+            <a class="link" href="../index.html">Accueil</a>
+            <a class="link" href="../list_projects_fr.html">Réalisations</a>
+            <a class="link" href="../list_skill_fr.html">Compétences</a>
+        </span></div>
+    <h3 class="title">Architecture MVC/VM/P</h3>
+    <div class="txt">
+        <p>
+            Acronymes respectifs de « Modèle Vue Contrôleur/ViewModel/Présentation », ces trois appellations désignent en réalité un mode de construction d’applications similaire. 
+            Il s’agit de diviser les différentes pages de code qui composent une application en trois catégories. 
+            <ul>
+                <li>
+                    La première catégorie, le modèle, sert à définir, créer, récupérer et modifier les données qui seront utilisées dans l’application. 
+                </li>
+                <li>
+                    La seconde catégorie, la vue, se compose des différentes fenêtres et écrans qui serviront à l’utilisateur pour manipuler ladite application, et les données qui 
+                    la compose.
+                </li>
+                <li>
+                    Enfin, la troisième partie, qui peut prendre le nom de Contrôleur, ViewModel ou encore Présentation, sert d’intermédiaire entre la vue et le modèle, 
+                    transformant les données pour les faire s’intégrer dans l’une ou l’autre de ces catégories.
+                </li>
+            </ul>
+        </p>     
+        <p>    
+            J’ai tout d’abord appris à utiliser ce type d’architecture sous le nom de MVC, lors de ma première année d’études. 
+            Plus tard, lorsque nous travaillons sur le projet <a class="link" href="../projects/hermes_fr.html">Hermès</a>, j’appris que cette architecture portait le nom de MVVM pour les 
+            technologies Android. 
+            Enfin, lors de mon entrée en entreprise et de mon travail sur le projet <a class="link" href="../projects/portail_rr_fr.html">Portail R&R</a>, je vis que cette architecture portait 
+            encore un autre nom pour les technologies WinDev : MVP.
+        </p>
+    </div>
+    <div class="imgHolder">
+        <figure>
+            <img src="../Ressources-fr/mvc.png" alt="Schéma explicatif de l'architecture MVC/VM/P">
+            <figcaption>Schéma explicatif de l'architecture MVC</figcaption>
+        </figure>
+    </div>
+    <div>
+        <h5 class="title">Réalisations associées</h5>
+        <ul>
+            <li><a class="link" href="../projects/hermes_fr.html">Hermès</a></li>
+            <li><a class="link" href="../projects/portail_rr_fr.html">Portail R&R</a></li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body{
+    background-color:rgb(39, 37, 37);
+    text-align: center;
+}
+
+.txt {
+    color:darkgreen;
+}
+
+.link {
+    color:steelblue;
+}
+
+a:visited {
+    color: steelblue;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+    margin-left: -3%;
+}
+
+img {
+    border-radius: 8px;
+    width: 500px;
+    height: 400px;
+}
+
+.title {
+    color:darkgoldenrod;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/theme.css">
+    <title>AlexisJar - Portfolio</title>
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script> 
+       $(function(){
+          $('.header_fr').load("../header_fr.html"); 
+       });
+    </script> 
+    </head>
+    <body>
+        <div class="header_fr"><span>
+            <a class="link" href="../index.html">Accueil</a>
+            <a class="link" href="../list_projects_fr.html">Réalisations</a>
+            <a class="link" href="../list_skill_fr.html">Compétences</a>
+        </span></div>
+    <h3 class="title">Portail R&R</h3>
+    <div class="txt">
+        <p>
+            Démarré peu après mon arrivée en entreprise, lors du mois d’avril 2021, il s’agit d’un projet très ambitieux. 
+            L’objectif étant de moderniser un logiciel vieux de quinze ans, à destination des employés d’un cabinet de généalogie successorale. 
+            Cela est d’autant plus complexe que les collaborateurs dudit cabinet sont répartis en deux corps de métiers distincts : 
+            <ul>
+                <li>les chercheurs, dont le travail consiste a établir la descendance d’un défunt, et d’entrer en contact avec les héritiers.</li>
+                <li>les régleurs, dont le travail est de faire connaître le cabinet auprès des notaires pour que ces derniers leur confient des dossiers, 
+                    et qui sont chargés par la suite de faire valoir les droits des héritiers retrouvés auprès des autorités judiciaires compétentes.</li>
+            </ul>
+        </p>
+        <p>
+            Nous devions donc moderniser une application à destination de ces deux corps de métiers, leur permettant de garder chaque étape de leur dossier en mémoire, 
+            et de pouvoir y accéder en cas de besoin. 
+            Cependant, nous devions également importer les données déjà entrées, dans un souci d’archivage, et de permettre aux collaborateurs de continuer de travailler sans perdre 
+            leur avancement.
+        </p>    
+        <p>    
+            Ce projet a été parsemé d’embuches. Tout d’abord, nous nous sommes demandés s’il n’était pas judicieux d’épurer notre structure de données de champs qui n’étaient 
+            plus utilisés depuis dix ans. Cependant, pressés par le temps, nous n’eûmes pas le temps de faire une refonte complète de la structure de la base de données.
+
+            Nous nous sommes ensuite penchés sur l’applicatif en lui-même, cherchant à garder l’essentiel de chaque fenêtre de l’application existante pour les retranscrire dans 
+            notre projet. Cela fait, nous avons décortiqué l’existant pour en connaître les comportements, et les reproduire, voire les améliorer dans notre projet. 
+            
+            Enfin, nous avons reçu de nouvelles demandes en cours de développement, notamment l’ajout d’un générateur de courriers, et d’un processus pour envoyer directement 
+            les courriers générés par mail.
+        </p>    
+        <p>    
+            Cependant, dû au nombre de demandes et de retards générés par la complexité de la tâche, et aux missions annexes confiées à une partie de l’équipe de développement, 
+            ce projet s’est vu abandonné en faveur de l’achat d’une application externe développée par une compagnie différente.
+        </p>
+    </div>
+    <div class="imgHolder">
+        <figure>
+            <img src="../Ressources-fr/PortailRR_AncienneInterface.png" alt="Ancienne interface">
+            <figcaption>Ancienne interface du logiciel</figcaption>
+        </figure>
+        <figure>
+            <img src="../Ressources-fr/PortailRR_FicheHer.png" alt="Nouvelle interface">
+            <figcaption>Fiche de saisie d'héritier de la nouvelle interface</figcaption>
+        </figure>
+    </div>
+    <div>
+        <h5 class="title">Compétences associées</h5>
+        <ul>
+            <li><a class="link" href="../skills/poo_fr_.html">Programmation orientée objet</a></li>
+            <li><a class="link" href="../skills/sql_fr.html">SQL</a></li>
+            <li><a class="link" href="../skills/adaptation_fr.html">Adaptation</a></li>
+            <li><a class="link" href="../skills/architecturemvcvmp_fr.html">Architecture MVC/VM/P</a></li>
+        </ul>
+    </div>
+</body>
+</html>

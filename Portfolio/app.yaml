@@ -1,0 +1,11 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /
+  static_files: AlexisJar_PortFolio/site_fr/home_fr.html
+  upload: AlexisJar_PortFolio/site_fr/home_fr.html
+
+- url: /
+  static_dir: AlexisJar_PortFolio/site_fr
